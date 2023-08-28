@@ -2,10 +2,7 @@
 
 
 
-### 
-**Welcome to my repo of miscellaneous projects I have completed!**
-Each folder contains a readme.md that can describe the project/code, but here is a brief overview of each: 
-###
+### Welcome to my repo of miscellaneous projects I have completed! Each folder contains a readme.md that can describe the project/code, but here is a brief overview of each: ###
 **"Analysis of GDS3227"**
 - Final project for gene analysis course that analyzes genes from x.
 
