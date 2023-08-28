@@ -1,0 +1,131 @@
+********************
+Changes in EMA1.3.2
+********************
+
+- test.LC
+Add the 'global' parameter to specify if one want to perform a F test of the global hypothesis H0=0, or to test each contrast simultaneously
+
+- normAffy
+Add the fast argument for GCRMA normalisation
+
+- ordinal.chisq
+Chisq test for ordinal values
+
+- New utilities
+intersectg
+setdiffg
+
+- plot.sample
+Allow vector as input. Transformation in matrix.
+
+- expFilter
+Add p parameter to keep the probes if at least p*ncol(data) of its values is higher than the threshold
+
+- clustering.plot
+Remove pdf option
+Change the margin values.
+Calculate the margins taking into account the names and names.sup parameters
+
+
+
+********************
+Changes in EMA1.3.1
+********************
+
+- clust.dist.R
+Changes in correlation function
+
+- plotSample.R
+Add ellipses in the graphical output
+
+- clustering.plot.R
+Bug in heatmap legend
+Stopifnot colnames data
+
+- km
+Graphical options changed
+
+
+- clustering.plot.R
+lab and lab.sup can be data.frame, casting to matrix is done manually
+new option legend.pos allows the user to choose the legend position
+
+- genes.selection
+the user can specify the quantile to be computed to filter the genes
+
+
+
+********************
+Changes in EMA1.2
+********************
+
+- Add NAMESPACE file and update DESCRIPTION file
+
+- Hide the following internals functions :
+clust.dist, dice, FWER.Bonf, goReport, GSA.correlate.txt, htmlresult, jaccard, keggReport, MFAreport, qualitySample
+
+- Remove the following functions :
+plotExplore.R, mult.clustering.R
+
+- runGSA.R
+Add gene scores in output
+
+- runInTest.R
+Update of the plot in output
+
+- runHyperGO
+Bug ifnotfound mget function
+
+- runHyperKEGG
+Bug ifnotfound mget function
+
+- normAffy
+Bug missing function
+
+- vignette updated
+
+********************
+Changes in EMA1.1
+********************
+
+- runPCA.R
+* Bug : plotVariable option.
+* Label is not initialized.
+
+- clustering.plot.R
+* A legend is added when a label is specified
+* If data is specified, an heatmap is displayed in one way clustering
+* The margins were adjusted according to the names length
+* Deals with NA values in labels
+
+- bioMartAnnot.R
+* Bug : outputTypeId undefined
+
+- probePlots.R
+* Bug : cex.axis option
+* Add a legend
+
+- distrib.plot.R
+* Change display using density plot instead of histogram
+
+- sample.plot.R
+* Legend is displayed out of the graph
+
+- eval.stability.clustering.R
+* Details section is added in the man page
+
+- test.LC.R
+* Global parameter : if someone want to perform a F test of the global hypothesis H_0=0, or to test each contrast simultaneously
+* Add multiple testing correction
+
+- FDR-BH.R
+* Bug in the Two-stages procedure. The error rate parameter (q) is missing.
+
+- runMFA.R
+* Can write a pdf report or a txt report
+
+- runHyperGO
+* CategorySize is used to generate all the report
+
+- man pages updated
+- vignette updated
