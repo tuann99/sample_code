@@ -1,5 +1,5 @@
 # Tuan's Sample Code #
-This is a repo for my code that I have written for class projects, work, and personal use.
+This is a repo for code that I have written for class projects, work, and personal use.
 
 ## Project Descriptions ##
 **Analysis of GDS3227**
