@@ -20,3 +20,11 @@ This is a repo for code that I have written for class projects, work, and person
 **PurpleAir Data Processing**
 - Script written for processing PurpleAir data.
 - Language(s): Python
+
+**Protein Bioinformatics Labs**
+- Scripts for analysis of proteins
+- Language(s): Python
+
+**Metagenomics Scripts**
+- Scripts for metagenomic analysis
+- Language(s): Python
