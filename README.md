@@ -27,4 +27,5 @@ This is a repo for code that I have written for class projects, work, and person
 
 **Metagenomics Scripts**
 - Scripts for metagenomic analysis
+- Techniques Used: Docker
 - Language(s): Python
