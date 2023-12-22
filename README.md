@@ -13,18 +13,6 @@ This is a repo for code that I have written for class projects, work, and person
 - Techniques Used: x
 - Language(s): HTML, CSS, Python, SQL
 
-**pDR Data Processing**
-- Script written for processing pDR-1500 data.
-- Language(s): Python
-
-**PurpleAir Data Processing**
-- Script written for processing PurpleAir data.
-- Language(s): Python
-
-**Protein Bioinformatics Labs**
-- Scripts for analysis of proteins
-- Language(s): Python
-
 **Metagenomics Scripts**
 - Scripts for metagenomic analysis
 - Techniques Used: Docker
