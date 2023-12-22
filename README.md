@@ -9,5 +9,10 @@ This is a repo for code that I have written for class projects, work, and person
 
 **Metagenomics Scripts**
 - Scripts for metagenomic analysis
-- Techniques Used: Docker
+- `blat_run.py`: Perform blat on samples
+- `bowtie2_built.py`: Builds index for bowtie2
+- `bowtie2_local_align_single.py`: Runs bowtie2 in local alignment mode for each sample in a folder
+- `calculations.py`: Contains some analyses performed on metagenomic samples
+- `fasta_fastq_summary_stats.py`: Script for summarizing sequence and residue count for a sample
+- `frp_create.py`: Creates fragment recruitment plots for SAM and PSL files.
 - Language(s): Python
