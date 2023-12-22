@@ -7,12 +7,6 @@ This is a repo for code that I have written for class projects, work, and person
 - Techniques Used: Feature Selection (SVM to rank genes by p-value), Data Visualization, PCA, MDS Analysis (Kruskal and Classical Approaches)
 - Language(s): R
 
-**Data Query Website**
-- Final project for bioinformatics course
-- This is a website where users can search for drugs in a SQL database.
-- Techniques Used: x
-- Language(s): HTML, CSS, Python, SQL
-
 **Metagenomics Scripts**
 - Scripts for metagenomic analysis
 - Techniques Used: Docker
