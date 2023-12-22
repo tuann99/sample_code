@@ -5,7 +5,7 @@ This is a repo for code that I have written for class projects, work, and person
 **Analysis of GDS3227**
 - Final project for a gene analysis course, where I analyzed a dataset from Wang et al., who wanted to investigate the effects of social isolation at a genetic level.
 - Techniques Used: Feature Selection (SVM to rank genes by p-value), Data Visualization, PCA, MDS Analysis (Kruskal and Classical Approaches)
-- Language(s): R
+- Language: R
 
 **Metagenomics Scripts**
 - Scripts for metagenomic analysis
@@ -15,4 +15,8 @@ This is a repo for code that I have written for class projects, work, and person
 - `calculations.py`: Contains some analyses performed on metagenomic samples
 - `fasta_fastq_summary_stats.py`: Script for summarizing sequence and residue count for a sample
 - `frp_create.py`: Creates fragment recruitment plots for SAM and PSL files.
-- Language(s): Python
+- Language: Python
+
+**Biostats Scripts**
+- `biostats_analysis.r`: Contains analyses performed for biostats project
+- Language: R
